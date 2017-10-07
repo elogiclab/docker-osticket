@@ -1,12 +1,12 @@
 FROM php:7.0-fpm-alpine
-MAINTAINER Martin Campbell <martin@campbellsoftware.co.uk>
+MAINTAINER Marco Sarti <marco.sarti@gmail.com>
 
 # setup workdir
 RUN mkdir /data
 WORKDIR /data
 
 # environment for osticket
-ENV OSTICKET_VERSION 1.10
+ENV OSTICKET_VERSION 1.10.1
 ENV HOME /data
 
 # requirements and PHP extensions
